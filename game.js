@@ -183,6 +183,7 @@ function animateBullets() {
 
       if (distance - enemy.radius - bullet.radius < 1) {
         enemiesCollection.splice(enemyIndex, 1);
+        bulletsCollection.splice(bulletIndex, 1);
       }
     });
   });
